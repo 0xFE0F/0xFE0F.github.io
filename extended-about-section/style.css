@@ -1,13 +1,4 @@
-body {
-  background-color: #222830;
-}
-pre {
-  color: #FFFFFF;
-}
+body {background-color: #222830;}
+pre {color: #FFFFFF;}
 
-p {
-  color: #0078D7;
-}
-#header {
-  color: #7DE0F7;
-}
+#special {color: #7DE0F7;}
