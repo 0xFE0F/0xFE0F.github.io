@@ -1,4 +1,15 @@
 body {background-color: #222830;}
 pre {color: #FFFFFF;}
 
-#special {color: #7DE0F7;}
+.special {color: #7DE0F7;}
+.pagebutton {
+  background-color: #30B4D2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
