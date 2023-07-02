@@ -8,10 +8,26 @@ pre {
 	line-height: 14pt;
 }
 
+a:hover {
+	color: #BE68FF;
+}
+
+a {
+	color: #D6A0FF;
+	font-family: montserrat;
+	font-size: 13px;
+	line-height: 14pt;
+	text-decoration: none
+}
+
 .special {
 	color: #D6A0FF;
 	font-family: monospace;
 	line-height: 10pt;
+}
+
+.pagebutton:hover {
+	color: white;
 }
 
 .pagebutton {
