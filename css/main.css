@@ -42,3 +42,7 @@ a {
 	margin: 4px 2px;
 	font-family: montserrat;
 }
+
+hr {
+	border: 1px solid #362B48;
+}
