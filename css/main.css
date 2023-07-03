@@ -8,6 +8,10 @@ pre {
 	line-height: 14pt;
 }
 
+hr {
+	border: 1px solid #362B48;
+}
+
 a:hover {
 	color: #BE68FF;
 }
@@ -43,6 +47,15 @@ a {
 	font-family: montserrat;
 }
 
-hr {
-	border: 1px solid #362B48;
+.content {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.center {
+	text-align: center;
 }
