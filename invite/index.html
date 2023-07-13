@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Roblox Invite</title>
+    
+    <meta content="Roblox Invite" property="og:title"/>
+    <meta name="twitter:title" content="Roblox Invite">
+    <meta property="og:site_name" content="0xFE0F.github.io"/>
+
+    <meta property="og:description" content="You've been invited to a game, click it to quickly join the experience!"/>
+    <meta property="twitter:description" content="You've been invited to a game, click it to quickly join the experience!"/>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+	    <script>
+	    const place = new URLSearchParams(window.location.search).get('place');
+	    if (place == null){
+      	window.location.replace('https://0xfe0f.github.io/');
+        
+		    throw'nevermind i guess'
+	    }
+
+      const link1 = 'https://www.roblox.com/games/start?placeId='
+
+    	window.location.replace(link1 + place);
+	    </script>
+  </body>
+</html>
