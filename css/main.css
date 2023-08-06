@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-body {background-color: #13121e;}
+body {background-color: #7c7c7c;}
 pre {
 	color: #FFFFFF;
-	font-family: montserrat;
+	font-family: arial;
 	font-size: 13px;
 	line-height: 14pt;
 }
 
 hr {
-	border: 1px solid #232135;
+	border: 1px solid #9a9a9a;
 }
 
 a:hover {
@@ -18,14 +16,14 @@ a:hover {
 
 a {
 	color: #a2efff;
-	font-family: montserrat;
+	font-family: arial;
 	font-size: 13px;
 	line-height: 14pt;
 	text-decoration: none
 }
 
 .special {
-	color: #baf3ff;
+	color: #d7ecef;
 	font-family: monospace;
 	line-height: 10pt;
 }
@@ -35,7 +33,7 @@ a {
 }
 
 .pagebutton {
-	background-color: #0f0e17;
+	background-color: #939393;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -44,7 +42,7 @@ a {
 	display: inline-block;
 	font-size: 16px;
 	margin: 4px 2px;
-	font-family: montserrat;
+	font-family: Arial;
 }
 
 .content {
