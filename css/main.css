@@ -63,3 +63,7 @@ a {
 .center {
 	text-align: center;
 }
+
+.bigread {
+	font-size: 50px
+}
