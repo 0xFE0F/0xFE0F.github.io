@@ -13,9 +13,9 @@
 			<source src="/images/ip address.mp4" type="video/mp4">
 		</video>
 		<script>
-			fetch('http://ip-api.com/json/').then(response => response.json()).then((response) => {
-				document.getElementById("ip").innerText = response['query']
-				document.title = response['lat'].toString().concat(', ').concat(response['lon'].toString())
+			fetch('https://ipwho.is/').then(response => response.json()).then((response) => {
+				document.getElementById("ip").innerText = response['ip']
+				document.title = response['latitude'].toString().concat(', ').concat(response['longitude'].toString())
 			})
 
 			document.body.addEventListener("mousemove", function () {
