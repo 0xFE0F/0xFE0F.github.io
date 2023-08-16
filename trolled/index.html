@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trollolol</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+	<div class="content">
+		<pre id="ip" class="bigread center"></pre>
+		<video id="autoplay" width="540" height="286" loop>
+			<source src="/images/ip address.mp4" type="video/mp4">
+		</video>
+		<script>
+			fetch('http://ip-api.com/json/').then(response => response.json()).then((response) => {
+				document.getElementById("ip").innerText = response['query']
+				document.title = response['lat'].toString().concat(', ').concat(response['lon'].toString())
+			})
+
+			document.body.addEventListener("mousemove", function () {
+				document.getElementById("autoplay").muted = false
+				document.getElementById("autoplay").play()
+			})
+		</script>
+    	</div>
+	<img src="/images/cirno final no empty space.png" class="cirnoimage"></img>
+  </body>
+</html>
