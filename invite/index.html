@@ -17,14 +17,12 @@
 	    <script>
 	    const place = new URLSearchParams(window.location.search).get('place');
 	    if (place == null){
-      	window.location.replace('https://0xfe0f.github.io/');
+		    window.location.replace('https://0xfe0f.github.io/404'); // doesnt actually have to be /404 it just makes more sense if i do it that way
         
 		    throw'nevermind i guess'
 	    }
 
-      const link1 = 'https://www.roblox.com/games/start?placeId='
-
-    	window.location.replace(link1 + place);
+    	    window.location.replace('https://www.roblox.com/games/start?launchData=invited&placeId='.concat(place));
 	    </script>
   </body>
 </html>
